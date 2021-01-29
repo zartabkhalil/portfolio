@@ -1,0 +1,519 @@
+body {
+    font-family: 'Fraunces', serif;
+    background: var(--mainWhite);
+    color: var(--mainBlack);
+
+
+}
+
+
+:root {
+    --sidebarcolor: #F0EFF4;
+    --rosemador: #DB2B39;
+    --marygold: #F3A712;
+    --blue: #009DDC;
+    --black: #02020A;
+    --junglegreen: #1B512D;
+    --darkpurple: #31081F;
+    --sadlebrown: #934B00;
+    --html:#08BDBD;
+    --css:#061826;
+    --python:#F2545B;
+    --java:#9F86C0;
+    --php:#297045;
+    
+    --javascript:#A98743;
+
+--sql:#FF1654;
+
+
+}
+
+.sidebar {
+    background-color: var(--sidebarcolor);
+
+    color: black;
+    
+    
+    overflow-x: hidden;
+
+}
+
+.sidebar a {
+    color: black;
+}
+
+.info-div {
+    background: url(../img/main-content-01.jpeg);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+
+
+}
+
+.nav-style {
+    transition: linear 1s;
+}
+
+
+
+.web {
+    border-bottom: 3px solid var(--rosemador);
+
+}
+
+.dev {
+    border-bottom: 3px solid var(--marygold);
+}
+
+.web-color {
+    color: var(--rosemador);
+}
+
+
+.web-dev-color {
+    color: var(--marygold);
+}
+
+.bug-bounty-color {
+    color: var(--blue);
+}
+
+
+.bug-bounty {
+    border-bottom: 3px solid var(--blue);
+}
+
+
+.hireme {
+    background-color: var(--marygold)
+}
+
+.card-icon {
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    background: var(--rosemador);
+    transform: rotate(45deg);
+    transition-duration: 1s;
+    transition-property: transform;
+    padding: 1rem;
+    margin-top: -25px;
+}
+
+.web-expert {
+    border-bottom: 2px solid var(--blue);
+}
+
+.web-expert > .card-icon {
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    background: var(--blue);
+
+    transform: rotate(45deg);
+
+    padding: 1rem;
+    margin-top: -25px;
+}
+
+.website-expert {
+    border-bottom: 2px solid var(--marygold);
+
+}
+
+.website-expert > .card-icon {
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    background: var(--marygold);
+    transform: rotate(45deg);
+    padding: 1rem;
+    margin-top: -25px;
+}
+
+.desktop-expert {
+    border-bottom: 2px solid var(--darkpurple);
+}
+
+.desktop-expert > .card-icon {
+    background: var(--darkpurple);
+}
+
+.web-develop-expert {
+    border-bottom: 2px solid var(--junglegreen);
+}
+
+.web-develop-expert > .card-icon {
+    background: var(--junglegreen);
+}
+
+.sever-deploy {
+    border-bottom: 2px solid var(--darkpurple);
+}
+
+.sever-deploy > .card-icon {
+    background: var(--darkpurple);
+}
+
+.education {
+
+    background-color: lightgrey;
+    transition: 2s linear;
+}
+
+.education-info {
+    border: 1px solid lightgrey;
+    display: none;
+    margin: 5px 0px 0px 0px;
+
+}
+
+.education-bs {
+    cursor: pointer;
+}
+
+
+/*skilll stylling*/
+.html-skill-title> h6 {
+    color: var(--html);
+}
+.html-skill-title> p {
+    color: var(--html);
+}
+
+.html-self-progress{
+    background: var(--html);
+    position: relative;
+   animation-name: firstone;
+    animation-duration: 3s;
+    
+    transition-duration: 3s;
+    transition-property: width;
+    animation-fill-mode: forwards; 
+   
+}
+
+.css-skill-title> h6 {
+    color: var(--css);
+}
+.css-skill-title> p {
+    color: var(--css);
+}
+
+.css-self-progress{
+    background: var(--css);
+    position: relative;
+   animation-name: firstone;
+    animation-duration: 3s;
+    
+    transition-duration: 3s;
+    transition-property: width;
+    animation-fill-mode: forwards; 
+   
+}
+.python-skill-title> h6 {
+    color: var(--python);
+}
+.python-skill-title> p {
+    color: var(--python);
+}
+
+.python-self-progress{
+    background: var(--python);
+    position: relative;
+   animation-name: firstone;
+    animation-duration: 3s;
+    
+    transition-duration: 3s;
+    transition-property: width;
+    animation-fill-mode: forwards; 
+   
+}
+
+
+
+.java-skill-title> h6 {
+    color: var(--java);
+}
+.java-skill-title> p {
+    color: var(--java);
+}
+
+.java-self-progress{
+    background: var(--java);
+    position: relative;
+   animation-name: firstone;
+    animation-duration: 3s;
+    
+    transition-duration: 3s;
+    transition-property: width;
+    animation-fill-mode: forwards; 
+   
+}
+
+.php-skill-title> h6 {
+    color: var(--php);
+}
+.php-skill-title> p {
+    color: var(--php);
+}
+
+.php-self-progress{
+    background: var(--php);
+    position: relative;
+   animation-name: firstone;
+    animation-duration: 3s;
+    
+    transition-duration: 3s;
+    transition-property: width;
+    animation-fill-mode: forwards; 
+   
+}
+
+.javascript-skill-title> h6 {
+    color: var(--javascript);
+}
+.javascript-skill-title> p {
+    color: var(--javascript);
+}
+
+.javascript-self-progress{
+    background: var(--javascript);
+    position: relative;
+   animation-name: firstone;
+    animation-duration: 3s;
+    
+    transition-duration: 3s;
+    transition-property: width;
+    animation-fill-mode: forwards; 
+   
+}
+
+.sql-skill-title> h6 {
+    color: var(--sql);
+}
+.sql-skill-title> p {
+    color: var(--sql);
+}
+
+.sql-self-progress{
+    background: var(--sql);
+    position: relative;
+   animation-name: firstone;
+    animation-duration: 3s;
+    
+    transition-duration: 3s;
+    transition-property: width;
+    animation-fill-mode: forwards; 
+   
+}
+
+/*styling for projcts*/
+.projects > a{
+    border-bottom: 1px solid var(--sql);
+}
+
+.project-1{
+    
+    background-position: center;
+    background-size: cover;
+    width: 45vh;
+    height: 40vh;
+    
+    border:1px solid grey;
+    
+}
+.project-1>h2{
+    opacity:1;
+    color:white;
+    margin-top:-1px;
+    display:none;
+}
+
+.project_share_icon {
+    color:white;
+    
+    
+    margin-top:200px;
+    display: none;
+}
+.project-1:hover  h2{
+   display: block;
+    animation-name:thirdone;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    
+}
+
+.project-1:hover  .project_share_icon{
+    cursor: pointer;
+    display: block;
+    transform: scale(1.1);
+    transition:2s linear;
+     animation-name:secondone;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    
+    
+}
+.project-1:hover{
+    transform: scale(1.1);
+    transition:2s linear;
+    
+}
+
+
+
+/*styling for contact us*/
+.contact-icon >span {
+    height: 10vh;
+    width:10vh;
+    color:var(--blue);
+    background: var(--sidebarcolor);
+   
+}
+.contact-icon >p {
+    font-size:20px;
+    
+    color:var(--blue);
+    
+}
+
+.contact-forms>input{
+    background: var(--sidebarcolor);
+    font-weight: bold;
+}
+.contact-forms>textarea{
+    background: var(--sidebarcolor);
+    font-weight: bold;
+}
+
+
+
+/*social accounts styling*/
+.social-accounts> span{
+    background: var(--sidebarcolor);
+    height: 10vh;
+    width: 10vh;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    color:
+}
+
+.span1:hover{
+    background: var(--blue);
+    color:white;
+    transition: 1s linear;
+}
+
+
+.span2:hover{
+    background: var(--html);
+    color:white;
+    transition: 1s linear;
+}
+
+.span3:hover{
+    background: var(--sql);
+    color:white;
+    transition: 1s linear;
+}
+
+.span4:hover{
+    background: var(--css);
+    color:white;
+    transition: 1s linear;
+}
+
+.span5:hover{
+    background: var(--php);
+    color:white;
+    transition: 1s linear;
+}
+
+.span6:hover{
+    background: var(--javascript);
+    color:white;
+    transition: 1s linear;
+}
+
+#social-text{
+    color:var(--blue);
+    transition: 1s linear;
+    display: none;
+    
+}
+.social-margin{
+    margin-bottom:100px;
+}
+@keyframes firstone{
+    from{
+        width: 10%;
+    }
+    to{
+        width:80%;
+    }
+}
+
+@keyframes secondone{
+    from{
+        margin-top:220px;
+    }
+    to{
+        margin-top:-100px;
+    }
+}
+
+@keyframes thirdone{
+    from{
+        margin-top:0px;
+    }
+    to{
+        margin-top:150px;
+    }
+}
+
+
+@media (min-width: 576px) {
+    
+   
+}
+
+
+@media (min-width: 768px) {
+   
+
+}
+
+
+@media (min-width: 992px) {
+
+    .sidebar {
+        background-color: var(--sidebarcolor);
+
+        color: black;
+        height: 100vh;
+        width: 40vh;
+        overflow-x: hidden;
+
+    }
+
+    .sidebarposition {
+        position: fixed;
+    }
+   
+
+}
+
+
+
+
+@media (min-width: 1200px) {}
+
+
+@media (min-width: 1400px) {}
